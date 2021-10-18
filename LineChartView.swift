@@ -92,40 +92,7 @@ struct LineChartView: View {
                                 .frame(width: 10, height: 10)
                                 .position(x: self.viewState.width, y: getYPos(xPos: self.viewState.width, geometrySize: geometry.size))
                                 .opacity(showPicker ? 1 : 0)
-                            /*
-                            VStack {
-                                HStack {
-                                    VStack {
-                                        /*
-                                        HStack {
-                                            Text("£\(String(format: "%.2f", getYLabel(xPos: self.viewState.width, geometrySize: geometry.size)))")
-                                                .font(.largeTitle)
-                                                .fontWeight(.bold)
-                                            Spacer()
-                                        }
-                                        */
-                                        /*
-                                        HStack {
-                                            Text("\(convertXPosToLabel(xPos: self.viewState.width, geometrySize: geometry.size))")
-                                                .font(.subheadline)
-                                                .foregroundColor(.secondary)
-                                            Spacer()
-                                        }
-                                        */
-                                        HStack {
-                                            Text("\(convertXPosToLabel(xPos: self.viewState.width, geometrySize: geometry.size))")
-                                                .font(.subheadline)
-                                                .foregroundColor(.secondary)
-                                            Spacer()
-                                        }
-                                    }
-                                    Spacer()
-                                }
-                                Spacer()
-                            }
-                            .opacity(showPicker ? 1 : 0)
-                            */
-                            
+                            //Display Line chart picker data here
                             Color.white
                                 .opacity(0.001)
                                 .gesture(DragGesture()
