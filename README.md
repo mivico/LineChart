@@ -1,6 +1,6 @@
-# Algorithms
+# Line Chart
  
-Goa: Create an interactive line chart which stays updated by providing a binding to a dataset.
+Goal: Create an interactive line chart which stays updated by providing a binding to a dataset.
 
 Firstly, we need a new datatype. We can call it LineChartData consisting of 3 attributes:
 
